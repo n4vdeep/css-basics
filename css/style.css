@@ -1,4 +1,40 @@
+/* UNIVERSAL SELECTOR
+* {
+  font-family: 'Courier New', Courier, monospace;
+} */
+
+body {
+  font-size: 22px;
+}
+h1, h2{
+  color: blue;
+}
+
+/* p {
+  color: red !important;
+} */
+
 p {
-  font-size: 64px;
   color: purple;
+}
+
+/* p span {
+  text-transform: uppercase;
+  background-color: gold;
+} */
+
+/* OR as above but with a class */
+
+/* Reusable */
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+.gray {
+  color: gray;
+}
+
+#second {
+  font-style: italic;
 }
