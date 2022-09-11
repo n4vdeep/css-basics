@@ -29,11 +29,10 @@ body {
   font-size: 22px;
 }
 ```
-
 ### Class
 HTML
 ```
-<p id="second" class="gray">`
+<p class="gray">`
 ```
 CSS
 ```
@@ -44,7 +43,7 @@ CSS
 ### ID
 HTML
 ```
-<p id="second" class="gray">`
+<p id="second">`
 ```
 CSS
 ```
