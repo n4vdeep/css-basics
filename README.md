@@ -28,7 +28,7 @@ CSS
 body {
   font-size: 22px;
 }
-````
+```
 
 ### .gray
 HTML
@@ -42,10 +42,11 @@ CSS
 }
 ```
 ### #second
-
+HTML
 ```
 <p id="second" class="gray">`
 ```
+CSS
 ```
 #second {
   font-style: italic;
