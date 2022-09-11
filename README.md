@@ -8,14 +8,31 @@
 - "`*`" universal selector
 
 ## Specificity
-An Element selector is the lease specific followed by the class selector and then the ID selector being the most specific. 
+An Element selector is the least specific followed by the class selector and then the ID selector being the most specific. 
 
-NB:Inline styles will override all of the above selectors and the style element selector in specificity however.
+**NB**: Inline styles will override all of the above selectors and the style element selector in specificity however.
 
 ## !important
 `!important` wil override every other selector regardless of what method it is. Dont use this unless there is a valid reason.
 
 ## Selector Code Example
+## From <style></style> Tags
+```
+<style>
+  h1 {
+    font-color: purple;
+  }
+
+  p {
+    font-style: italic;
+  }
+</style>
+```
+## Inline Styles
+```
+<p style="color:red;">A red paragraph.</p>
+```
+## From Separate Style Sheet File (style.css)
 ### Element
 HTML
 ```
