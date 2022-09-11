@@ -16,9 +16,32 @@ NB:Inline styles will override all of the above selectors and the style element 
 `!important` wil override every other selector regardless of what method it is. Dont use this unless there is a valid reason.
 
 ## Selector Code Example
-### `body`
+### body
+HTML
+`<body>
+...
+</body>`
 `
+CSS
 body {
   font-size: 22px;
+}
+`
+
+### .gray
+HTML
+`<p id="second" class="gray">`
+`
+CSS
+.gray {
+  color: gray;
+}
+`
+### #second
+
+`<p id="second" class="gray">`
+`
+#second {
+  font-style: italic;
 }
 `
