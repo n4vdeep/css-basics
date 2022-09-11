@@ -18,30 +18,36 @@ NB:Inline styles will override all of the above selectors and the style element 
 ## Selector Code Example
 ### body
 HTML
-`<body>
+```
+<body>
 ...
 </body>`
-`
+```
 CSS
+```
 body {
   font-size: 22px;
 }
-`
+````
 
 ### .gray
 HTML
-`<p id="second" class="gray">`
-`
+```
+<p id="second" class="gray">`
+```
 CSS
+```
 .gray {
   color: gray;
 }
-`
+```
 ### #second
 
-`<p id="second" class="gray">`
-`
+```
+<p id="second" class="gray">`
+```
+```
 #second {
   font-style: italic;
 }
-`
+```
