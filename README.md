@@ -74,3 +74,11 @@ CSS
   color: red !important;
 }
 ```
+
+## Colors
+There are 4 main ways to specify color in CSS:
+- the color by word
+- rgb
+- rgba
+- hexadecimal
+
