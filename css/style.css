@@ -24,6 +24,11 @@ h1 {
   width: 50%;
   font-size: 3rem;
   padding: 0.5em;
+
+  /* 
+  the above units of font-size and padding
+  equate to 48px and 24px respectively 
+  */
 }
 
 p {

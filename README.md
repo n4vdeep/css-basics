@@ -122,6 +122,12 @@ This would equate to the `p` element having a font size of 32px absolute.
 ### em
 With this unit the parent element will look at the root element and resize according to what the root size is (usually default) and then whatever is set to `em` will be resized based on the parent element.
 
+Example:
+
+```
+
+```
+
 ### vw (viewport width)
 ### vh (viewport height)
 ### % 
