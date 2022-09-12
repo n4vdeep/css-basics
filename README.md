@@ -33,7 +33,7 @@ An Element selector is the least specific followed by the class selector and the
 <p style="color:red;">A red paragraph.</p>
 ```
 ### From Separate Style Sheet File (style.css)
-### Element
+#### Element
 HTML
 ```
 <body>
@@ -46,7 +46,7 @@ body {
   font-size: 22px;
 }
 ```
-### Class
+#### Class
 HTML
 ```
 <p class="gray">`
@@ -57,7 +57,7 @@ CSS
   color: gray;
 }
 ```
-### ID
+#### ID
 HTML
 ```
 <p id="second">`
@@ -68,7 +68,7 @@ CSS
   font-style: italic;
 }
 ```
-### !important
+#### !important
 ```
 #second {
   color: red !important;
