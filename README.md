@@ -93,3 +93,11 @@ p {
   color: hsl(50, 100%, 50%);
 }
 ```
+Hexadecimals colors can also be entered in a short hand format of 3 characters if the sequence is repeating characters of 6:
+
+### Example:
+
+`color: #ffffff` > `color: #fff`
+`color: #000000` > `color: #000`
+`color: #333333` > `color: #333`
+
