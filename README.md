@@ -32,7 +32,7 @@ An Element selector is the least specific followed by the class selector and the
 ```
 <p style="color:red;">A red paragraph.</p>
 ```
-## From Separate Style Sheet File (style.css)
+### From Separate Style Sheet File (style.css)
 ### Element
 HTML
 ```
@@ -99,5 +99,6 @@ Hexadecimals colors can also be entered in a short hand format of 3 characters i
 
 `color: #ffffff` > `color: #fff`\
 `color: #000000` > `color: #000`\
-`color: #333333` > `color: #333`\
+`color: #333333` > `color: #333`
 
+## Units
