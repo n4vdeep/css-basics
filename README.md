@@ -15,8 +15,8 @@ An Element selector is the least specific followed by the class selector and the
 ## !important
 `!important` wil override every other selector regardless of what method it is. Dont use this unless there is a valid reason.
 
-## Selector Code Example
-### From <style></style> Tags
+### Selector Code Example
+#### From <style></style> Tags
 ```
 <style>
   h1 {
@@ -28,11 +28,11 @@ An Element selector is the least specific followed by the class selector and the
   }
 </style>
 ```
-### Inline Styles
+#### Inline Styles
 ```
 <p style="color:red;">A red paragraph.</p>
 ```
-### From Separate Style Sheet File (style.css)
+#### From Separate Style Sheet File (style.css)
 #### Element
 HTML
 ```
@@ -83,7 +83,7 @@ There are 5 main ways to specify color in CSS:
 - hexadecimal
 - hsl
 
-## Color Code Examples
+### Color Code Examples
 ```
 p {
   color: red;
