@@ -104,9 +104,9 @@ Hexadecimals colors can also be entered in a short hand format of 3 characters i
 ## Units
 The most common unit used in CSS is pixels (px) the px is also an absolute value, there are however others:
 ### rem
-This relates to the font size of the root element, i.e. the html element and NOT the parent element.
+This relates to the font size of the root element, i.e. the `html` element and NOT the parent element this is known as a relative unit.
 
-Example:\
+Example:
 
 ```
 html {
@@ -117,10 +117,11 @@ p {
   font-size: 2rem;
 }
 ```
-This would equate to the p element having a font size of 32px absolute.
+This would equate to the `p` element having a font size of 32px absolute.
 
 ### em
+With this unit the parent element will look at the root element and resize according to what the root size is (usually default) and then whatever is set to `em` will be resized based on the parent element.
 
-- vw (viewport width)
-- vh (viewport height)
-- % 
+### vw (viewport width)
+### vh (viewport height)
+### % 
