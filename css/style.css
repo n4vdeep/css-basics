@@ -16,3 +16,7 @@ body {
 
   color: darkblue;
 }
+
+p {
+  color: hsl(0, 100%, 50%);
+}

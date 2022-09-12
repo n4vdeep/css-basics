@@ -76,9 +76,20 @@ CSS
 ```
 
 ## Colors
-There are 4 main ways to specify color in CSS:
+There are 5 main ways to specify color in CSS:
 - the color by word
 - rgb
 - rgba
 - hexadecimal
+- hsl
 
+## Color Code Examples
+```
+p {
+  color: red;
+  color: rgb(255, 0, 0);
+  color: rgba(0, 255, 0, 0.5);
+  color: #0000ff;
+  color: hsl(50, 100%, 50%);
+}
+```
