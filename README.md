@@ -97,7 +97,7 @@ Hexadecimals colors can also be entered in a short hand format of 3 characters i
 
 ### Example:
 
-`color: #ffffff` > `color: #fff`
+`color: #ffffff` > `color: #fff`\n
 `color: #000000` > `color: #000`
 `color: #333333` > `color: #333`
 
