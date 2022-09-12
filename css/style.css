@@ -1,7 +1,9 @@
-/* UNIVERSAL SELECTOR
+/* UNIVERSAL SELECTOR */
 * {
-  font-family: 'Courier New', Courier, monospace;
-} */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-size: 22px;
@@ -17,6 +19,15 @@ body {
   color: darkblue;
 }
 
+h1 {
+  border: 2px dashed red;
+  width: 50%;
+}
+
 p {
   color: #333;
+}
+
+.unit {
+  font-size: 1rem;
 }

@@ -102,3 +102,25 @@ Hexadecimals colors can also be entered in a short hand format of 3 characters i
 `color: #333333` > `color: #333`
 
 ## Units
+The most common unit used in CSS is pixels (px) the px is also an absolute value, there are however others:
+### rem
+This relates to the font size of the root element, i.e. the html element and NOT the parent element.
+
+Example:\
+
+```
+html {
+  font-size: 16px;
+}
+
+p {
+  font-size: 2rem;
+}
+```
+This would equate to the p element having a font size of 32px absolute.
+
+### em
+
+- vw (viewport width)
+- vh (viewport height)
+- % 
