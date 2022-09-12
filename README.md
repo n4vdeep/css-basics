@@ -16,7 +16,7 @@ An Element selector is the least specific followed by the class selector and the
 `!important` wil override every other selector regardless of what method it is. Dont use this unless there is a valid reason.
 
 ## Selector Code Example
-## From <style></style> Tags
+### From <style></style> Tags
 ```
 <style>
   h1 {
@@ -28,7 +28,7 @@ An Element selector is the least specific followed by the class selector and the
   }
 </style>
 ```
-## Inline Styles
+### Inline Styles
 ```
 <p style="color:red;">A red paragraph.</p>
 ```
