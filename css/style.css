@@ -36,6 +36,8 @@ p {
 }
 
 main {
+  width: 50vw;
+  background-color: aqua;
   font-size: 2rem;
 }
 

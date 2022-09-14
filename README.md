@@ -125,8 +125,19 @@ With this unit the parent element will look at the root element and resize accor
 Example:
 
 ```
+html {
+  font-size: 16px // default browser font size
+}
 
+h1 {
+  font-size: 3rem;
+  padding: 0.5em;
+}
 ```
+Here the font size of `h1` at 3rem will be multiplied by the `html` font size of 16px giving a font size of 48px
+
+The padding of 0.5rem looks at the 3rem font size and because this is 48px it is halved, 48x0.5=24px padding.
+
 
 ### vw (viewport width)
 ### vh (viewport height)
